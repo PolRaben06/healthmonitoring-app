@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Log Health Data | Health Monitoring System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1 class="logo">Health Monitor</h1>
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="dashboard.html">Dashboard</a></li>
+            <li><a href="log.html" class="active">Log Data</a></li>
+            <li><a href="tips.html">Health Tips</a></li>
+            <li><a href="history.html">History</a></li>
+            <li><a href="profile.html">Profile</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <section>
+        <h2>Log Your Health Data</h2>
+        <p>Enter your daily health information below.</p>
+    </section>
+
+    <form>
+        <label>Date:
+            <input type="date" required>
+        </label>
+
+        <label>Weight (kg):
+            <input type="number" step="0.1">
+        </label>
+
+        <label>Blood Pressure (Systolic):
+            <input type="number">
+        </label>
+
+        <label>Blood Pressure (Diastolic):
+            <input type="number">
+        </label>
+
+        <label>Heart Rate (bpm):
+            <input type="number">
+        </label>
+
+        <label>Steps:
+            <input type="number">
+        </label>
+
+        <label>Sleep Hours:
+            <input type="number" step="0.1">
+        </label>
+
+        <label>Water Intake (litres):
+            <input type="number" step="0.1">
+        </label>
+
+        <button type="submit">Save Data</button>
+    </form>
+</main>
+
+<footer>
+    <p>&copy; 2026 Health Monitoring System</p>
+</footer>
+
+</body>
+</html>
